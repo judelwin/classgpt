@@ -7,7 +7,7 @@ A scalable, modular Retrieval-Augmented Generation (RAG) system designed for mul
 ClassGPT allows students and educators to:
 - Upload academic documents (PDFs, slides, notes) organized by class
 - Ask questions about course materials using natural language
-- Receive AI-generated answers with source citations
+- Receive generated answers with source citations
 - Maintain separate knowledge bases for different courses
 
 ## Architecture
@@ -163,14 +163,5 @@ Each service can be deployed independently:
 - **Vector Store**: Qdrant Cloud or self-hosted
 - **Storage**: AWS S3, Google Cloud Storage, etc.
 
-## Features
 
-- [x] User authentication
-- [x] PDF document upload and processing
-- [x] Document chunking and embedding
-- [x] Vector search and retrieval
-- [x] AI-powered Q&A interface
-- [x] Class/course organization
-- [ ] Real-time chat interface
-- [ ] Document annotation
-- [ ] Collaborative features
+

@@ -10,7 +10,7 @@ ClassGPT allows students and educators to:
 - Receive AI-generated answers with source citations
 - Maintain separate knowledge bases for different courses
 
-## 🏗Architecture
+## Architecture
 
 The system consists of several microservices:
 

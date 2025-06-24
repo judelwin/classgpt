@@ -1,0 +1,2 @@
+# This file ensures the shared directory is tracked by git
+# Remove this file once shared utilities are implemented 

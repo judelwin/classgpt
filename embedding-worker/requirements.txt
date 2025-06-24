@@ -1,0 +1,9 @@
+celery[redis]
+redis
+psycopg2-binary
+SQLAlchemy
+pydantic-settings
+pymupdf==1.23.8
+openai
+sentence-transformers
+qdrant-client 

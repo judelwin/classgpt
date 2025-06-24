@@ -1,8 +1,8 @@
-# 🧠 ClassGPT
+# ClassGPT
 
 A scalable, modular Retrieval-Augmented Generation (RAG) system designed for multi-class academic document ingestion, semantic search, and LLM-based Q&A.
 
-## 🎯 Overview
+## Overview
 
 ClassGPT allows students and educators to:
 - Upload academic documents (PDFs, slides, notes) organized by class
@@ -10,7 +10,7 @@ ClassGPT allows students and educators to:
 - Receive AI-generated answers with source citations
 - Maintain separate knowledge bases for different courses
 
-## 🏗️ Architecture
+## 🏗Architecture
 
 The system consists of several microservices:
 
@@ -18,10 +18,10 @@ The system consists of several microservices:
 - **Ingestion Service**: PDF parsing and OCR for document processing
 - **Embedding Worker**: Converts text chunks to embeddings using Celery
 - **Query Service**: RAG pipeline with semantic search and LLM integration
-- **Vector Store**: FAISS/Qdrant for embedding storage and retrieval
+- **Vector Store**: Qdrant for embedding storage and retrieval
 - **Database**: PostgreSQL for metadata and job tracking
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker and Docker Compose
@@ -71,9 +71,9 @@ cd ../query-service
 pip install -r requirements.txt
 ```
 
-2. Start services individually (see individual service READMEs for details)
+2. Start services individually
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 classgpt/
@@ -87,7 +87,7 @@ classgpt/
 └── README.md
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Key environment variables:
 - `OPENAI_API_KEY`: Your OpenAI API key for LLM queries
@@ -95,14 +95,14 @@ Key environment variables:
 - `DATABASE_URL`: PostgreSQL connection string
 - `VECTOR_STORE_URL`: Qdrant connection string
 
-## 📚 Usage
+## Usage
 
 1. **Create a Class**: Use the class selector to create a new course
 2. **Upload Documents**: Drag and drop PDFs, slides, or notes
 3. **Ask Questions**: Type questions about your course materials
 4. **Get Answers**: Receive AI-generated responses with source citations
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -110,15 +110,11 @@ Key environment variables:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
-
-For issues and questions, please open an issue on GitHub or contact the development team.
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker and Docker Compose
